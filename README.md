@@ -41,7 +41,7 @@ This project involves implementing a Self-Organizing Map (SOM) from scratch and 
 2. **Install Dependencies**:
    Ensure you have Python installed, then install the required libraries:
    ```bash
-   pip install numpy pandas matplotlib
+   pip install numpy pandas 
    ```
 
 3. **Run the Notebook**:
