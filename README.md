@@ -34,8 +34,8 @@ This project involves implementing a Self-Organizing Map (SOM) from scratch and 
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository_link>
-   cd <repository_directory>
+   git clone https://github.com/arda92a/SOM-Scratch-Based-Implementation  
+   cd SOM-Scratch-Based-Implementation
    ```
 
 2. **Install Dependencies**:
