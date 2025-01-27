@@ -14,9 +14,10 @@ This project involves implementing a Self-Organizing Map (SOM) from scratch and 
 
 3. **`som_scratch.py`**:
    - Contains the implementation of the `SOM` class, which defines the core functionality of the Self-Organizing Map.
+   - Also includes the `TestSOM` class for testing the methods and functionality of the `SOM` class.
 
 4. **`test_som_code.py`**:
-   - Includes the `TestSOM` class for testing the methods and functionality of the `SOM` class.
+   - A script to run all tests for the `SOM` class using the `TestSOM` class from `som_scratch.py`.
 
 ---
 
@@ -34,14 +35,14 @@ This project involves implementing a Self-Organizing Map (SOM) from scratch and 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/arda92a/SOM-Scratch-Based-Implementation  
+   git clone https://github.com/arda92a/SOM-Scratch-Based-Implementation
    cd SOM-Scratch-Based-Implementation
    ```
 
 2. **Install Dependencies**:
    Ensure you have Python installed, then install the required libraries:
    ```bash
-   pip install numpy pandas 
+   pip install numpy pandas matplotlib
    ```
 
 3. **Run the Notebook**:
@@ -54,6 +55,37 @@ This project involves implementing a Self-Organizing Map (SOM) from scratch and 
    To test the implementation of the SOM class, run the test script:
    ```bash
    python test_som_code.py
+   ```
+
+   Example output of the test script:
+   ```
+   ===================== Test Start =====================
+
+   --- Constructor Tests ---
+   [Test Results]
+
+   --- Random Weights Initialization Tests ---
+   [Test Results]
+
+   --- Activation Distance Tests ---
+   [Test Results]
+
+   --- Winner Tests ---
+   [Test Results]
+
+   --- Win Map Tests ---
+   [Test Results]
+
+   --- Train Tests ---
+   [Test Results]
+
+   --- Update Weights Tests ---
+   [Test Results]
+
+   --- Distance Map Tests ---
+   [Test Results]
+
+   ===================== All Tests Completed =====================
    ```
 
 ---
@@ -79,7 +111,7 @@ In the map, clusters represent different data segments, and fraud cases stand ou
   - Identifies fraudulent credit card applications based on clustering anomalies.
 
 - **Testing Suite**:
-  - `test_som_code.py` ensures that the methods in the `SOM` class are functioning correctly.
+  - The `TestSOM` class (in `som_scratch.py`) ensures that the methods in the `SOM` class are functioning correctly, and `test_som_code.py` runs all these tests.
 
 ---
 
@@ -104,5 +136,4 @@ Feel free to contribute to this project by submitting pull requests or reporting
 
 ## Contact
 
-For any questions or feedback, please reach out to the project maintainer at [your_email@example.com].
-
+For any questions or feedback, please reach out to the project maintainer at [ardaoztuner3@gmail.com].
